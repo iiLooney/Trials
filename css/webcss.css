@@ -1,64 +1,64 @@
 body {
-    margin 0;
+    margin: 10x 400px;
+    text-align: center;
     background-color: black;
     color: white;
-    text-align: center;
-    padding 0 20;
-
 }
 
-h1{
-    line-height: 30px;
+header h1{
+    margin: 20px;
+    max-width: 1080px;
+    display: inline;
+    color: green;
+    background-color: black;
+    font-size: 240px;
+    padding: 200px 40px;
+    border: 10px solid green;
+    border-bottom: 100px;
+    box-sizing: border-box;
+}
+
+main{
+    border: 10px solid green;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+footer.li{
+    display: block;
+}
+a.a{
+    float: left;
+}
+a.b{
+    float: right;
 }
 h2 {
-    font-size: 40px;
-    line-height: 25px;
+    font-size: 60px;
+    display: inline;
+    margin: 10px 10px;
 }
 
-p.para{
-    font-size: 20px;
-    line-height: 20px;
-    
+h3{
+    font-size: 30px;
+    display: block;
 }
 
-p.cap {
-    font-style: italic;
-    color: white ;
-    font-size: 20px;
-
-}
-p.cap:hover {
-    color: red;
-}
-
-i {
-    color:white;
-}
-i:hover {
-    color: red;
-}
-
-header {
-    color: green;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 70px;
-}
-main img{
-    max-width 100px;
-
+p{
 
 }
 
-footer {
-    text-align: centre;
-    font-size: 25px;
+header.img{
+    max-width: 450px;
+    float: left;
 }
 
-a.title {
-    color: white;
+header.img1{
+    transform: translate(500px);
+}
+
+span{
+    transform: translate(500px);
 
 }
-a.title:hover {
-    color:red;
-}
+

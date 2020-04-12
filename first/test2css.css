@@ -1,0 +1,27 @@
+body{
+    background-color: red;
+}
+h1{
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+}
+
+h2{
+    font-size: 15.5px;
+    text-align: right;
+    letter-spacing: 5px;
+}
+
+h3{
+    color: orchid;
+    font-size: xx-large;
+    font-stretch: normal;
+}
+
+a{
+    color: palegoldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: wider;
+    font-style: italic;
+}

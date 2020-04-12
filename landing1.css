@@ -1,0 +1,39 @@
+body img{
+    max-width: 48%;
+    transform: translate(460px, 150px);
+    display: block;
+    float: both;
+    box-sizing: border-box;
+}
+body {
+    background-image:url('img/Animated.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+main img{
+    float: left;
+    max-width: 60px;
+    max-height: 80px;
+    padding: 10px;
+    transform: translate(860px, 140px);
+}
+
+main img:hover{
+    opacity: 50%;
+}
+a.Buttons{
+    font-size: 30px;
+    color:  white;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    transform: translate(720px, 130px);
+   
+}
+a.Buttons:hover{
+    opacity: 50%;
+}
