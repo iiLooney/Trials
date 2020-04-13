@@ -1,16 +1,12 @@
 body img{
-    max-width: 48%;
-    transform: translate(460px, 150px);
-    display: block;
-    float: both;
-    box-sizing: border-box;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
 }
 body {
-    background-image:url('img/Animated.gif');
-    background-size:100%;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
 main img{
